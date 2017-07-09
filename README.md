@@ -26,9 +26,15 @@ run `python eval.py --checkpoint_dir /{PATH_TO_CODE/runs/{TIME_DIR}/checkpoints}
 
 ### 推荐运行环境
 python 2.7.13 :: Anaconda 4.3.1 (64-bit)  
-tensorflow 1.0.0  
+tensorflow 1.2.1 
 gensim 1.0.1  
 Ubuntu16.04 64bit  
+
+you can directly use 
+
+```
+pip install -r requirements.txt
+```
 
 ### 说明
 若按照以上步骤无法正常运行程序，请在Issues或在[博客](http://blog.csdn.net/clayanddev/article/details/70738475)中提问，我会尽快回复。
